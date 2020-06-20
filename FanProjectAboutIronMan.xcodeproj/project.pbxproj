@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0916D1249E72A200C21414 /* CategoryName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0916D0249E72A100C21414 /* CategoryName.swift */; };
 		FA9E01B4249D7BF9004E139E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01B3249D7BF9004E139E /* AppDelegate.swift */; };
 		FA9E01B6249D7BF9004E139E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01B5249D7BF9004E139E /* SceneDelegate.swift */; };
-		FA9E01B8249D7BF9004E139E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01B7249D7BF9004E139E /* ViewController.swift */; };
 		FA9E01BB249D7BF9004E139E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9E01B9249D7BF9004E139E /* Main.storyboard */; };
 		FA9E01BD249D7BFE004E139E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9E01BC249D7BFE004E139E /* Assets.xcassets */; };
 		FA9E01C0249D7BFE004E139E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9E01BE249D7BFE004E139E /* LaunchScreen.storyboard */; };
+		FA9E01C8249D7C5E004E139E /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01C7249D7C5E004E139E /* SuperHero.swift */; };
+		FA9E01CE249E5289004E139E /* Powerstats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01CD249E5289004E139E /* Powerstats.swift */; };
+		FA9E01D0249E531A004E139E /* Apperance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01CF249E531A004E139E /* Apperance.swift */; };
+		FA9E01D2249E53BF004E139E /* Biography.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01D1249E53BF004E139E /* Biography.swift */; };
+		FA9E01D4249E560D004E139E /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01D3249E560D004E139E /* Work.swift */; };
+		FA9E01D6249E56A7004E139E /* Connections.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01D5249E56A7004E139E /* Connections.swift */; };
+		FA9E01D8249E5BF8004E139E /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01D7249E5BF8004E139E /* MainCollectionViewController.swift */; };
+		FA9E01DA249E5DAB004E139E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01D9249E5DAB004E139E /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA0916D0249E72A100C21414 /* CategoryName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryName.swift; sourceTree = "<group>"; };
 		FA9E01B0249D7BF9004E139E /* FanProjectAboutIronMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanProjectAboutIronMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9E01B3249D7BF9004E139E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA9E01B5249D7BF9004E139E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA9E01B7249D7BF9004E139E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA9E01BA249D7BF9004E139E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA9E01BC249D7BFE004E139E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9E01BF249D7BFE004E139E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9E01C1249D7BFE004E139E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9E01C7249D7C5E004E139E /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		FA9E01CD249E5289004E139E /* Powerstats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powerstats.swift; sourceTree = "<group>"; };
+		FA9E01CF249E531A004E139E /* Apperance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apperance.swift; sourceTree = "<group>"; };
+		FA9E01D1249E53BF004E139E /* Biography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biography.swift; sourceTree = "<group>"; };
+		FA9E01D3249E560D004E139E /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		FA9E01D5249E56A7004E139E /* Connections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connections.swift; sourceTree = "<group>"; };
+		FA9E01D7249E5BF8004E139E /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		FA9E01D9249E5DAB004E139E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,55 @@
 		FA9E01B2249D7BF9004E139E /* FanProjectAboutIronMan */ = {
 			isa = PBXGroup;
 			children = (
-				FA9E01B3249D7BF9004E139E /* AppDelegate.swift */,
-				FA9E01B5249D7BF9004E139E /* SceneDelegate.swift */,
-				FA9E01B7249D7BF9004E139E /* ViewController.swift */,
-				FA9E01B9249D7BF9004E139E /* Main.storyboard */,
+				FA9E01CC249E51B0004E139E /* Models */,
+				FA9E01CA249E518F004E139E /* ViewControllers */,
+				FA9E01CB249E51A1004E139E /* Storyboards */,
+				FA9E01C9249E5177004E139E /* Supporting */,
 				FA9E01BC249D7BFE004E139E /* Assets.xcassets */,
-				FA9E01BE249D7BFE004E139E /* LaunchScreen.storyboard */,
-				FA9E01C1249D7BFE004E139E /* Info.plist */,
 			);
 			path = FanProjectAboutIronMan;
+			sourceTree = "<group>";
+		};
+		FA9E01C9249E5177004E139E /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E01B3249D7BF9004E139E /* AppDelegate.swift */,
+				FA9E01B5249D7BF9004E139E /* SceneDelegate.swift */,
+				FA9E01C1249D7BFE004E139E /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		FA9E01CA249E518F004E139E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E01D7249E5BF8004E139E /* MainCollectionViewController.swift */,
+				FA9E01D9249E5DAB004E139E /* CollectionViewCell.swift */,
+				FA0916D0249E72A100C21414 /* CategoryName.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FA9E01CB249E51A1004E139E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E01B9249D7BF9004E139E /* Main.storyboard */,
+				FA9E01BE249D7BFE004E139E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FA9E01CC249E51B0004E139E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E01C7249D7C5E004E139E /* SuperHero.swift */,
+				FA9E01CD249E5289004E139E /* Powerstats.swift */,
+				FA9E01CF249E531A004E139E /* Apperance.swift */,
+				FA9E01D1249E53BF004E139E /* Biography.swift */,
+				FA9E01D3249E560D004E139E /* Work.swift */,
+				FA9E01D5249E56A7004E139E /* Connections.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA9E01B8249D7BF9004E139E /* ViewController.swift in Sources */,
+				FA9E01DA249E5DAB004E139E /* CollectionViewCell.swift in Sources */,
+				FA0916D1249E72A200C21414 /* CategoryName.swift in Sources */,
+				FA9E01D4249E560D004E139E /* Work.swift in Sources */,
+				FA9E01D2249E53BF004E139E /* Biography.swift in Sources */,
+				FA9E01D0249E531A004E139E /* Apperance.swift in Sources */,
+				FA9E01D6249E56A7004E139E /* Connections.swift in Sources */,
+				FA9E01D8249E5BF8004E139E /* MainCollectionViewController.swift in Sources */,
 				FA9E01B4249D7BF9004E139E /* AppDelegate.swift in Sources */,
 				FA9E01B6249D7BF9004E139E /* SceneDelegate.swift in Sources */,
+				FA9E01CE249E5289004E139E /* Powerstats.swift in Sources */,
+				FA9E01C8249D7C5E004E139E /* SuperHero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FanProjectAboutIronMan/Info.plist;
+				INFOPLIST_FILE = FanProjectAboutIronMan/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,7 +357,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = macbook.FanProjectAboutIronMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FanProjectAboutIronMan/Info.plist;
+				INFOPLIST_FILE = FanProjectAboutIronMan/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = macbook.FanProjectAboutIronMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
