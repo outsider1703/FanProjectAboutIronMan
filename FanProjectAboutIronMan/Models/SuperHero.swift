@@ -9,7 +9,7 @@
 struct SuperHero: Decodable {
     let name: String?
     let powerstats: Powerstats?
-    let apperance : Apperance?
+    let appearance : Apperance?
     let biography: Biography?
     let work: Work?
     let connections: Connections?
