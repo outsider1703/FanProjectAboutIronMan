@@ -6,8 +6,8 @@
 //  Copyright © 2020 Igor Simonov. All rights reserved.
 //
 
-enum CategoryName: String {
+enum CategoryName: String, CaseIterable {
     case powerstats = "Powerstats"
-    case Apperance = "Apperance"
-    case Biography = "Biography"
+    case apperance = "Apperance"
+    case biography = "Biography"
 }
