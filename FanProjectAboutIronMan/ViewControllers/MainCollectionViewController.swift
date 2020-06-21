@@ -49,7 +49,24 @@ class MainCollectionViewController: UICollectionViewController {
         case .biography:
             performSegue(withIdentifier: "biography", sender: nil)
         }
-        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let contentVC = segue.destination as! ContentViewController
+
+        switch segue.identifier {
+        case "powerstats":
+            contentVC.selection = "powerstats"
+            contentVC.fetchData()
+        case "apperance" :
+            contentVC.selection = "apperance"
+            contentVC.fetchData()
+        case "biography" :
+            contentVC.selection = "biography"
+            contentVC.fetchData()
+        default:
+            break
+        }
     }
 
 }

@@ -6,7 +6,7 @@
 //  Copyright © 2020 Igor Simonov. All rights reserved.
 //
 
-struct Powerstats: Decodable{
+struct Powerstats: Decodable {
     let intelligence: Int?
     let strength: Int?
     let speed: Int?

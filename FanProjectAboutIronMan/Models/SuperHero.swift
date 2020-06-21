@@ -6,11 +6,13 @@
 //  Copyright © 2020 Igor Simonov. All rights reserved.
 //
 
-//struct SuperHero: Decodable {
-//    let name: String?
-//    let powerstats: Powerstats?
-//    let apperance : Apperance?
-//    let biography: Biography?
-//    let work: Work?
-//    let connections: Connections?
-//}
+struct SuperHero: Decodable {
+    let name: String?
+    let powerstats: Powerstats?
+    let apperance : Apperance?
+    let biography: Biography?
+    let work: Work?
+    let connections: Connections?
+    
+}
+

@@ -6,7 +6,7 @@
 //  Copyright © 2020 Igor Simonov. All rights reserved.
 //
 
-struct Connections {
+struct Connections: Decodable {
     let groupAffiliation: String?
     let relatives: String?
 }

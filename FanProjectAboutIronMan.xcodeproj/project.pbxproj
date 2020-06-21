@@ -21,6 +21,7 @@
 		FA9E01D6249E56A7004E139E /* Connections.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01D5249E56A7004E139E /* Connections.swift */; };
 		FA9E01D8249E5BF8004E139E /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01D7249E5BF8004E139E /* MainCollectionViewController.swift */; };
 		FA9E01DA249E5DAB004E139E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E01D9249E5DAB004E139E /* CollectionViewCell.swift */; };
+		FADC6320249F8B4C009E4C0A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC631F249F8B4C009E4C0A /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		FA9E01D5249E56A7004E139E /* Connections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connections.swift; sourceTree = "<group>"; };
 		FA9E01D7249E5BF8004E139E /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
 		FA9E01D9249E5DAB004E139E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FADC631F249F8B4C009E4C0A /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				FA9E01D7249E5BF8004E139E /* MainCollectionViewController.swift */,
 				FA9E01D9249E5DAB004E139E /* CollectionViewCell.swift */,
+				FADC631F249F8B4C009E4C0A /* ContentViewController.swift */,
 				FA0916D0249E72A100C21414 /* CategoryName.swift */,
 			);
 			path = ViewControllers;
@@ -198,6 +201,7 @@
 				FA0916D1249E72A200C21414 /* CategoryName.swift in Sources */,
 				FA9E01D4249E560D004E139E /* Work.swift in Sources */,
 				FA9E01D2249E53BF004E139E /* Biography.swift in Sources */,
+				FADC6320249F8B4C009E4C0A /* ContentViewController.swift in Sources */,
 				FA9E01D0249E531A004E139E /* Apperance.swift in Sources */,
 				FA9E01D6249E56A7004E139E /* Connections.swift in Sources */,
 				FA9E01D8249E5BF8004E139E /* MainCollectionViewController.swift in Sources */,

@@ -9,8 +9,8 @@
 struct Apperance: Decodable {
     let gender: String?
     let race: String?
-    let height: [Int]?
-    let weight: [Int]?
+    let height: [String]?
+    let weight: [String]?
     let eyeColor: String?
     let hairColor: String?
 }

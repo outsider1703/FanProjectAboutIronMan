@@ -16,15 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7So-lj-b2W">
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="40" minimumInteritemSpacing="40" id="7So-lj-b2W">
                             <size key="itemSize" width="340" height="100"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="40" maxX="0.0" maxY="40"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="vOX-rt-xNz" customClass="CollectionViewCell" customModule="FanProjectAboutIronMan" customModuleProvider="target">
-                                <rect key="frame" x="17.5" y="0.0" width="340" height="100"/>
+                                <rect key="frame" x="17.5" y="40" width="340" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Rpo-qS-GAl">
                                     <rect key="frame" x="0.0" y="0.0" width="340" height="100"/>
@@ -78,21 +78,37 @@
             </objects>
             <point key="canvasLocation" x="1594.4000000000001" y="54.422788605697157"/>
         </scene>
-        <!--View Controller-->
+        <!--Content View Controller-->
         <scene sceneID="SxU-q1-v1j">
             <objects>
-                <viewController id="aWw-DW-Px5" sceneMemberID="viewController">
+                <viewController id="aWw-DW-Px5" customClass="ContentViewController" customModule="FanProjectAboutIronMan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ho2-r3-eYt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFI-WR-8rz">
+                                <rect key="frame" x="16" y="84" width="343" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Z6Z-oO-PMN" firstAttribute="trailing" secondItem="fFI-WR-8rz" secondAttribute="trailing" constant="16" id="Mnz-5n-W78"/>
+                            <constraint firstItem="fFI-WR-8rz" firstAttribute="leading" secondItem="Z6Z-oO-PMN" secondAttribute="leading" constant="16" id="fD8-no-8kr"/>
+                            <constraint firstItem="fFI-WR-8rz" firstAttribute="top" secondItem="Z6Z-oO-PMN" secondAttribute="top" constant="40" id="nnx-Bh-IwQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Z6Z-oO-PMN"/>
                     </view>
                     <navigationItem key="navigationItem" id="5GN-WA-65g"/>
+                    <connections>
+                        <outlet property="contentLabel" destination="fFI-WR-8rz" id="Pbz-07-a1c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IdT-ag-aFh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2418" y="54"/>
+            <point key="canvasLocation" x="2416.8000000000002" y="53.523238380809602"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="M9a-x2-h1O">
